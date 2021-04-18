@@ -31,8 +31,6 @@ public class HomeState implements State {
     @Override
     public void pressTVButton() {
         System.out.println("TV is already on the home screen");
-
-        
     }
 
  

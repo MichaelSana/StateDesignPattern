@@ -13,22 +13,28 @@ public class TV {
     }
 
     public void pressHomeButton(){
+        state = new HomeState();
         state.pressHomebutton();
     }
 
     public void pressNetflixButton(){
-        state.pressHomebutton();
+        state = new NetflixState();
+        state.pressNetflixButton();
+        
     }
 
     public void pressHuluButton(){
+        state = new HuluState();
         state.pressHuluButton();
     }
 
     public void pressMovieButton(){
+        state = new HomeState();
         state.pressHomebutton();
     }
 
     public void pressTVButton(){
+        state = new HomeState();
         state.pressHomebutton();
     }
 
