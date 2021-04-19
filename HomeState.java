@@ -17,14 +17,14 @@ public class HomeState implements State {
     //does the home button action
     @Override
     public void pressHomebutton() {
-        System.out.println("TV is already on the home screen");
+        System.out.println("TV is already on the home screen\n");
         
     }
 
     //does the netflix button action
     @Override
     public void pressNetflixButton() {
-        System.out.println("Loading Netflix...");
+        System.out.println("Loading Netflix...\n");
         tv.setState(tv.getNetflixState());
         
     }
